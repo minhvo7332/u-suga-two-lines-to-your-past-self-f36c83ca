@@ -57,7 +57,6 @@ def main() -> None:
     # The grader collects outputs as another user: leave the file
     # readable by everyone (0644), not just its owner.
     os.chmod(path, 0o644)
-    os.chmod("/output", 0o755)
 
 
 if __name__ == "__main__":
